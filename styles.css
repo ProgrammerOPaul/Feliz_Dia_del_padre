@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #6dd5fa, #ffffff);
+    animation: backgroundAnimation 10s infinite alternate;
+  }
+  
+  @keyframes backgroundAnimation {
+    0% {
+      background: linear-gradient(to bottom, #6dd5fa, #ffffff);
+    }
+    50% {
+      background: linear-gradient(to bottom, #ffffff, #6dd5fa);
+    }
+    100% {
+      background: linear-gradient(to bottom, #6dd5fa, #ffffff);
+    }
+  }
+  
+  p {
+    font-size: 32px;
+    color: #333333;
+    text-align: center;
+  }
+  
